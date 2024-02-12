@@ -237,7 +237,7 @@ void setup() {
   // }
   // Serial.printf("UDP server on port %d\n", localPort);
   lampIP = WiFi.localIP().toString();
-  WiFi.begin("PavelWiFi", "0000000000000");
+  WiFi.begin("НАЗВАНИЕ ВАШЕЙ WIFI СЕТИ", "ПАРОЛЬ WIFI");
 
   while (WiFi.status() != WL_CONNECTED) {
     delay(500);
